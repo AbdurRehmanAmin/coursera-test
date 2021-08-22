@@ -117,4 +117,66 @@
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   </body>
 </html>
+/********Styles*********/
+*{
+	font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+#header-nav{
+ background-color: salmon;
+ border-radius: 0;
+ border: 0;
+}
+.navbar-brand a{
+	font-size: 30px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px;
+	text-decoration: none;
+	text-decoration-color: black;
+}
+.container>h2{
+	text-align: center;
+	text-shadow: 1px 1px 1px;
+	margin-top: 15px;
+    margin-bottom: 20px;
+}
+#main-content{
+	background-color: darkgrey;
+}
+.container h3{
+		text-align: center;
+	    margin-bottom: 10px;
+}
+.container p{
+	height: 800px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+/********** Large Devices **********/
+@media (min-width: 1200px) {
+ .dropdown{
+		visibility: hidden;
+	}
+}
+
+/********** Medium Devices **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .dropdown{
+		visibility: hidden;
+	}
+  }
+
+/********** Small Devices **********/
+@media (min-width: 768px) and (max-width: 991px) {
+.dropdown{
+		visibility: visible;
+	}
+}
+
+/********** Extra Small Devices **********/
+@media (max-width: 767px) {
+	.dropdown{
+		visibility: visible;
+	}
+}
 

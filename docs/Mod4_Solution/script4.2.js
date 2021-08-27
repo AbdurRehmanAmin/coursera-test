@@ -1,0 +1,2 @@
+var farewell = "Goobye";
+ 
